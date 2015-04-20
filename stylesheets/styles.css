@@ -3,13 +3,13 @@
 body {
   padding:50px;
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
+  color:#949494;
   font-weight:300;
   background: #000000;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
+  color:#343434;
   margin:0 0 20px;
 }
 
@@ -26,11 +26,11 @@ h1 {
 }
 
 h2 {
-  color:#393939;
+  color:#474747;
 }
 
 h3, h4, h5, h6 {
-  color:#494949;
+  color:#5b5b5b;
 }
 
 a {
@@ -41,7 +41,7 @@ a {
 
 a small {
   font-size:11px;
-  color:#777;
+  color:#949494;
   margin-top:-0.6em;
   display:block;
 }
@@ -52,7 +52,7 @@ a small {
 }
 
 blockquote {
-  border-left:1px solid #e5e5e5;
+  border-left:1px solid #ffffff;
   margin:0;
   padding:0 0 0 20px;
   font-style:italic;
@@ -60,15 +60,15 @@ blockquote {
 
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
-  color:#333;
+  color:#3f3f3f;
   font-size:12px;
 }
 
 pre {
   padding:8px 15px;
-  background: #f8f8f8;  
+  background: #ffffff;  
   border-radius:5px;
-  border:1px solid #e5e5e5;
+  border:1px solid #ffffff;
   overflow-x: auto;
 }
 
@@ -80,16 +80,16 @@ table {
 th, td {
   text-align:left;
   padding:5px 10px;
-  border-bottom:1px solid #e5e5e5;
+  border-bottom:1px solid #ffffff;
 }
 
 dt {
-  color:#444;
+  color:#555555;
   font-weight:700;
 }
 
 th {
-  color:#444;
+  color:#555555;
 }
 
 img {
@@ -140,7 +140,7 @@ header ul a {
 }
 
 strong {
-  color:#222;
+  color:#2a2a2a;
   font-weight:700;
 }
 
@@ -157,7 +157,7 @@ header ul li + li + li {
 header ul a strong {
   font-size:14px;
   display:block;
-  color:#222;
+  color:#2a2a2a;
 }
 
 section {
@@ -172,7 +172,7 @@ small {
 
 hr {
   border:0;
-  background:#e5e5e5;
+  background:#ffffff;
   height:1px;
   margin:0 0 20px;
 }
@@ -202,7 +202,7 @@ footer {
   }
   
   section {
-    border:1px solid #e5e5e5;
+    border:1px solid #ffffff;
     border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
@@ -251,6 +251,6 @@ footer {
   body {
     padding:0.4in;
     font-size:12pt;
-    color:#444;
+    color:#555555;
   }
 }
