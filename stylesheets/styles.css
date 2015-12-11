@@ -59,7 +59,7 @@ blockquote {
 
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
-  color:#3f3f3f;
+  color:#6f6f6f;
   font-size:12px;
 }
 
@@ -69,6 +69,7 @@ pre {
   border-radius:5px;
   border:1px solid #ffffff;
   overflow-x: auto;
+  background-color:black;
 }
 
 table {
