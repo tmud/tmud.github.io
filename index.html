@@ -32,9 +32,9 @@
       <section>
         <p><img src="https://raw.githubusercontent.com/tmud/tmud.github.io/master/images/logos13.png" alt="Tortilla logo">
 Современный клиент для текстовых онлайновых игр</p>
-<p><a href="https://github.com/tmud/tortilla/releases/download/0.98rc2/tortilla_0.98rc2.zip">Скачать последнюю версию 0.98rc2</a></p>
-<p><a href="https://github.com/tmud/tortilla/releases/download/0.98rc2/sdk_0.98rc2.zip">Скачать SDK 0.98rc2 для написания плагинов для клиента</a></p>
-<p><a href="https://github.com/tmud/tortilla/releases/download/0.98rc/tortilla_0.98rc.zip">Скачать предыдущую версию 0.98rc1</a></p>
+<p><a href="https://github.com/tmud/tortilla/releases/download/0.98/tortilla_0.98.zip">Скачать последнюю стабильную версию 0.98</a></p>
+<p><a href="https://github.com/tmud/tortilla/releases/download/0.98/sdk_0.98.zip">Скачать SDK 0.98 для написания плагинов для клиента</a></p>
+<!-- <p><a href="https://github.com/tmud/tortilla/releases/download/0.98rc/tortilla_0.98rc.zip">Скачать предыдущую версию 0.98rc1</a></p> -->
 <!-- <p><a href="https://github.com/tmud/tortilla/releases/download/0.98beta8/sdk_0.98beta8.zip">Скачать SDK 0.98beta8 для написания плагинов и модулей для клиента</a></p> -->
 
 
@@ -54,6 +54,13 @@
 
 <h3>ПОСЛЕДНИЕ ИЗМЕНЕНИЯ</h3>
 <pre style="pre">
+v0.98
+Новые возможности:
+- Расширены таймеры. Теперь максимальный предел таймера увеличен до 9999.9 секунд.
+Если идет отсчет таймера, то по команде #timer показывается отставшееся время до срабатывания.
+- Триггеры теперь срабатывают на строки по команде #output, даже без наличия подключения к маду.
+Удобно использовать для тестирования триггеров.
+
 v0.98rc2
 Исправлены ошибки:
 - Ошибка подстановки переменных в комады #hotkey, #action и т.д. если использовалось сокращение команды.
