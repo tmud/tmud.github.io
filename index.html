@@ -33,14 +33,14 @@
         <p><img src="https://raw.githubusercontent.com/tmud/tmud.github.io/master/images/logos13.png" alt="Tortilla logo">
 Современный клиент для текстовых онлайновых игр</p>
 
-<p><a href="https://github.com/tmud/tortilla/releases/download/1.0beta5/tortilla_1.0beta5.zip">Скачать версию 1.0beta5 (тестируется)</a></p>
-<p><a href="https://github.com/tmud/tortilla/releases/download/1.0beta5/sdk_1.0beta5.zip">Скачать SDK для написания плагинов и модулей для клиента</a></p>
-<p><a href="https://github.com/tmud/tortilla/releases/download/1.0beta5/bylins_plugins.zip">Скачать плагины для Былин.</a></p>
-<p><a href="https://github.com/tmud/tortilla/releases/download/1.0beta5/plugins_plus.zip">Скачать дополнительные плагины.</a></p>
+<p><a href="https://github.com/tmud/tortilla/releases/download/1.0beta6/tortilla_1.0beta6.zip">Скачать версию 1.0beta6 (тестируется)</a></p>
+<p><a href="https://github.com/tmud/tortilla/releases/download/1.0beta6/sdk_1.0beta6.zip">Скачать SDK для написания плагинов и модулей для клиента</a></p>
+<p><a href="https://github.com/tmud/tortilla/releases/download/1.0beta6/bylins_plugins.zip">Скачать плагины для Былин.</a></p>
+<p><a href="https://github.com/tmud/tortilla/releases/download/1.0beta6/plugins_plus.zip">Скачать дополнительные плагины.</a></p>
 <br>
 <p><a href="https://github.com/tmud/tortilla/releases/download/0.99/tortilla_0.99.zip">Скачать последнюю стабильную версию 0.99</a></p>
-<p><a href="https://github.com/tmud/tortilla/releases/download/0.99/sdk_0.99.zip">Скачать SDK 0.99 для написания плагинов для клиента</a></p>
-<!-- <p><a href="https://github.com/tmud/tortilla/releases/download/0.99/bylins_plugins.zip">Скачать плагины для Былин (нет в архиве с клиентом).</a></p> 
+<!--<p><a href="https://github.com/tmud/tortilla/releases/download/0.99/sdk_0.99.zip">Скачать SDK 0.99 для написания плагинов для клиента</a></p>
+<p><a href="https://github.com/tmud/tortilla/releases/download/0.99/bylins_plugins.zip">Скачать плагины для Былин (нет в архиве с клиентом).</a></p> 
 -->
 
 <h3>ОСНОВНЫЕ ВОЗМОЖНОСТИ КЛИЕНТА</h3>
@@ -59,6 +59,17 @@
 
 <h3>ПОСЛЕДНИЕ ИЗМЕНЕНИЯ</h3>
 <pre style="pre">
+v1.0 beta6
+Исправлены ошибки:
+- При принудительном разрыве связи (#zap) в течении минуты нельзя было подключиться.
+Новые возможности:
+- Сделана поддержка комбинации Ctrl+колесо мыши для Windows 10, работало только Win10-.
+Открывает историю мада и сколлирует ее, независимо от положения курсора мыши.
+Без Ctrl скроллируется окно, над которым находится курсор мышы.
+- Плагин statusbar умеет теперь обновлять опыт по команде уровни в маде.
+Изменения в SDK:
+- Модуль триггер-до промпт строки(trprompt.lua) поддерживает фильтр промпт-строк.
+
 v1.0 beta5
 Исправлены ошибки:
 - Замены (subs) могли срабатывать несколько раз, если есть триггеры(actions) на те же самые строчки.
