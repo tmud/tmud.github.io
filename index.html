@@ -32,13 +32,12 @@
       <section>
         <p><img src="https://raw.githubusercontent.com/tmud/tmud.github.io/master/images/logos13.png" alt="Tortilla logo">
 Современный клиент для текстовых онлайновых игр</p>
-<p><a href="https://github.com/tmud/tortilla/releases/download/1.04beta/tortilla_1.04beta.zip">Скачать версию 1.04beta</a></p>
-<p><a href="https://github.com/tmud/tortilla/releases/download/1.03beta/tortilla_1.03beta.zip">Скачать версию 1.03beta</a></p>
+<p><a href="https://github.com/tmud/tortilla/releases/download/1.05/tortilla_1.05.zip">Скачать версию 1.05</a></p>
 <br>
-<p><a href="https://github.com/tmud/tortilla/releases/download/1.0/tortilla_1.0.zip">Скачать версию 1.0</a></p>
-<p><a href="https://github.com/tmud/tortilla/releases/download/1.0/sdk_1.0.zip">Скачать SDK для написания плагинов и модулей для клиента</a></p>
-<p><a href="https://github.com/tmud/tortilla/releases/download/1.0/bylins_plugins.zip">Скачать плагины для Былин.</a></p>
-<p><a href="https://github.com/tmud/tortilla/releases/download/1.0/plugins_plus.zip">Скачать дополнительные плагины.</a></p>
+<p><a href="https://github.com/tmud/tortilla/releases/download/1.05/sdk_1.05.zip">Скачать SDK для написания плагинов и модулей для клиента</a></p>
+<p><a href="https://github.com/tmud/tortilla/releases/download/1.05/bylins_plugins.zip">Скачать плагины для Былин.</a></p>
+<p><a href="https://github.com/tmud/tortilla/releases/download/1.05/plugins_plus.zip">Скачать дополнительные плагины.</a></p>
+<p><a href="https://github.com/tmud/tortilla/releases/download/1.04beta/tortilla_1.04beta.zip">Скачать предыдущую версию 1.04</a></p>
 <br>
 
 <h3>ОСНОВНЫЕ ВОЗМОЖНОСТИ КЛИЕНТА</h3>
@@ -58,20 +57,23 @@
 <h3>ПОСЛЕДНИЕ ИЗМЕНЕНИЯ</h3>
 <pre style="pre">
 
-v1.04beta
-Новые возможности:
-- Расширены редакторы триггеров в настройках клиента. Можно перемещать триггеры из 
-одной группы в другую группу.
-
-v1.03beta
+v1.05
 Исправлены ошибки:
-- Ошибка в механизме копирования текста из окна клиента в буфер обмена. В некоторых случаях
-копировался не тот текст, который был выделен в клиенте для копирования.
+- При редактировании подсветок (highlights) изменялся цвет исходной подсветки, при попытке 
+сделать ее копию с некоторыми изменениями.
+- Ошибка изменения глобальной громкости звука на компьютере, при использовании звукового плагина.
+- Ошибка лора для мада Сфера Миров.
 Новые возможности:
-- Расширены редакторы триггеров в настройках клиента. Теперь можно фильтровать список видимых
-в редакторе триггеров и по списку активных групп.
+- Автоподстановки работают теперь и со 2+ слова.
+- Добавлен режим отладки для триггеров. Он помогает находить неправильно работающие триггеры (#help debug).
+- В команде #if появилось действие по else (#help if).
+- Добавлена команда #strop для строковых операций с переменными (#help strop).
+- Добавлен профиль мада DF2.
+- Переработан и исправлен лор. Теперь можно добавлять свои комментарии к предметам.
+- Модули system, rnd, extra встроены в клиент для ускорения загрузки. Клиент без них 
+уже не может, т.к. используются во многих плагинах.
+- Плагин status теперь умеет за N секунд до конца тика выполнять команды.
 
-v1.0
 - Поддерживаются основные элементы для настройки игры:
   - Триггеры (actions)
   - Замены (subs) с поддержкой цвета
