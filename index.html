@@ -32,12 +32,12 @@
       <section>
         <p><img src="https://raw.githubusercontent.com/tmud/tmud.github.io/master/images/logos13.png" alt="Tortilla logo">
 Современный клиент для текстовых онлайновых игр</p>
-<p><a href="https://github.com/tmud/tortilla/releases/download/1.05/tortilla_1.05.zip">Скачать версию 1.05</a></p>
+<p><a href="https://github.com/tmud/tortilla/releases/download/1.06/tortilla_1.06.zip">Скачать версию 1.06</a></p>
 <br>
-<p><a href="https://github.com/tmud/tortilla/releases/download/1.05/sdk_1.05.zip">Скачать SDK для написания плагинов и модулей для клиента</a></p>
-<p><a href="https://github.com/tmud/tortilla/releases/download/1.05/bylins_plugins.zip">Скачать плагины для Былин.</a></p>
-<p><a href="https://github.com/tmud/tortilla/releases/download/1.05/plugins_plus.zip">Скачать дополнительные плагины.</a></p>
-<p><a href="https://github.com/tmud/tortilla/releases/download/1.04beta/tortilla_1.04beta.zip">Скачать предыдущую версию 1.04</a></p>
+<p><a href="https://github.com/tmud/tortilla/releases/download/1.06/sdk_1.06.zip">Скачать SDK для написания плагинов и модулей для клиента</a></p>
+<p><a href="https://github.com/tmud/tortilla/releases/download/1.06/bylins_plugins.zip">Скачать плагины для Былин.</a></p>
+<p><a href="https://github.com/tmud/tortilla/releases/download/1.06/plugins_plus.zip">Скачать дополнительные плагины.</a></p>
+<p><a href="https://github.com/tmud/tortilla/releases/download/1.05/tortilla_1.05.zip">Скачать предыдущую версию 1.05</a></p>
 <br>
 
 <h3>ОСНОВНЫЕ ВОЗМОЖНОСТИ КЛИЕНТА</h3>
@@ -56,6 +56,20 @@
 
 <h3>ПОСЛЕДНИЕ ИЗМЕНЕНИЯ</h3>
 <pre style="pre">
+
+v1.06
+Исправлены ошибки:
+- Ошибка сохранения местоположения дополнительных окон у плагинов.
+- Ошибка с отключением луа триггеров из скриптов. Они отключались не сразу, если идет 
+срабатывание на одинаковых строках подряд.
+- Ошибка методов loadTable, saveTable (некоторые луа таблицы сохранялись неверно).
+- Ошибка с параметрами в макросах, если они вызываются из триггеров.
+- Улучшен плагин импорта сетов из jmc (поддержка регулярок), исправлена ошибка с #var.
+- Обновлен плагин autoresc.
+Новые возможности:
+- Редизайн окон профилей и компонентов, для удобства использования.
+- Ускорялка классических триггеров (не на регулярных выражениях). Теперь они работают быстрее.
+- Плагин маппера через msdp протокол.
 
 v1.05
 Исправлены ошибки:
